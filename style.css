@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+    text-align: center;
+}
+.heading{
+    color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1.0);
+    font-size:8vmin;
+    background-color: bisque;
+    color: rgba(125, 4, 4, 0.658);
+}
+#reset{
+    border: 0;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#reset :hover{
+    background-color: white;
+    color: black;
+}
+
+
+#newGame{
+    order: 0;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msgtext{
+    color: white;
+    font-size: 8vmin;
+}
+
+.msgclass{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+    visibility: none;
+}
+.heading{
+    margin: 20px;
+    padding: 20px;
+}
